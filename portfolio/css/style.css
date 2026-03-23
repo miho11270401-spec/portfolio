@@ -93,6 +93,7 @@ a {
 }
 
 .title {
+  position: relative;
   font-size: 50px;
   font-family: "Kite One", sans-serif;
   font-weight: 400;
@@ -124,4 +125,11 @@ a {
   position: absolute;
   top: 500px;
   right: 210px;
+}
+
+@media (max-width: 963px) {
+  .career,
+  .future {
+    position: static;
+  }
 }
